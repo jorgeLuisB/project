@@ -1,0 +1,90 @@
+﻿<!DOCTYPE html>
+  <html>
+  <head >
+    <title> JS1</title>
+    <a href="#"><img id="img1" src="cabeceraUnimag.jpg"></a>
+    <link rel="stylesheet" type="text/css" href="estilosJS1.css">
+    <link rel="stylesheet" href="http://cdn.datatables.net/1.10.16/css/jquery.dataTables.min.css">
+
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script> 
+    <script src="http://cdn.datatables.net/1.10.16/js/jquery.dataTables.min.js"></script>
+    <script type="text/javascript" src="js1.js" ></script>
+    <style>
+      table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    background-color: #dddddd;
+}
+    </style>
+  </head>
+
+  <body>
+
+    <h1 id="H1">FORMULARIO DE INSCRIPCION</h1>
+
+    <form>
+
+    <fieldset>
+     <legend id="lg1">INGRESE LOS DATOS</legend> <br><br>
+      <label> Ingrese el primer Nombre </label>
+      <input type="text" id="txtNombre1"> <br><br>
+      <label> Ingrese el segundo Nombre</label>
+      <input type="text" id="txtNombre2"><br><br>
+      <label> Ingrese Primer Apellido</label>
+      <input type="text" id="txtApell1"><br><br>
+      <label> Ingrese el segundo Apellido</label>
+      <input type="text" id="txtApell2"><br><br>
+
+      <input type="button" value="ENVIAR" onclick="guardar();">
+      <input type="button" value="VER REGISTRO" onclick="ver();">
+      <input id="REC" type="button" value="RECARGAR PAGINA" onclick="recargar();">
+      
+    </fieldset>
+    </form>
+   
+
+    <form id="ver">
+      
+      
+
+    </form>
+
+
+ <table id="usertable"  style="width:100%">
+  <thead>
+   <tr>
+    <th>Primer nombre</th>
+    <th>Segundo Nombre</th> 
+    <th>Primer apellido</th>
+    <th>Segundo apellido</th>
+    <th>ELIMINAR</th>
+  </tr>
+  </thead>
+  <tbody id="tbody">
+   
+  </tbody>
+ 
+ 
+
+  
+</table>
+    
+  </body>
+<script>
+
+   
+
+</script> 
+  </html>
+
+

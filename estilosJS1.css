@@ -1,0 +1,21 @@
+﻿#img1{
+
+
+ width: 1350px;
+ height: 200px;
+
+}
+
+#H1{
+ text-align: center;
+}
+
+#lg1{
+   text-align: center;
+   font-style: italic;
+   font-size: 20px;
+}
+.caja{
+
+  background-color: #ccc;
+}
